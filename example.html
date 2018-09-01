@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../animated.js"></script>
+    <title>Animated JS</title>
+</head>
+
+<body>
+    <div class="bodyMain">
+        <div class="container">
+            <div class="title">
+                Animated JS
+            </div>
+            <div class="buttons">
+                <div class="buttonClear"></div>
+                <div class="buttonClear"></div>
+                <div onclick="upMove('.title');" class="button" style="border-left:0;">Up</div>
+                <div class="buttonClear"></div>
+                <div class="buttonClear"></div>
+                <div class="buttonClear"></div>
+                <div onclick="rightMove('.title');" class="button">Right</div>
+                <div onclick="downMove('.title');" class="button" style="border-left:0;">Down</div>
+                <div onclick="leftMove('.title');" class="button" style="border-left:0;">Left</div>
+                <div class="buttonClear"></div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        jQuery("body").keydown(function (e) {
+            if ((e.keyCode || e.which) == 37) {
+                main_move(".title", jQuery(".title").offset().left - 200, "-", "Y", 20);
+            }
+            if ((e.keyCode || e.which) == 38) {
+                main_move(".title", jQuery(".title").offset().top - 200, "-", "X", 20);
+            }
+            if ((e.keyCode || e.which) == 39) {
+                main_move(".title", jQuery(".title").offset().left + 200, "+", "Y", 20);
+            }
+            if ((e.keyCode || e.which) == 40) {
+                main_move(".title", jQuery(".title").offset().top + 200, "+", "X", 20);
+            }
+        });
+    </script>
+</body>
+
+</html>

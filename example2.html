@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../animated.js"></script>
+    <title>Animated JS</title>
+</head>
+
+<body>
+    <div class="bodyMain">
+        <div class="container">
+            <div class="title">
+                Animated JS
+            </div>
+            <div class="buttons">
+                <div class="buttonClear"></div>
+                <div class="buttonClear"></div>
+                <div onclick="upDownMove('.title');" class="button" style="border-left:0;">UpDown</div>
+                <div class="buttonClear"></div>
+                <div class="buttonClear"></div>
+                <div class="buttonClear"></div>
+                <div onclick="rightLeftMove('.title');" class="button">RightLeft</div>
+                <div onclick="downUpMove('.title');" class="button" style="border-left:0;">DownUp</div>
+                <div onclick="leftRightMove('.title');" class="button" style="border-left:0;">LeftRight</div>
+                <div class="buttonClear"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

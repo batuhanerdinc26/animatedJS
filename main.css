@@ -1,0 +1,176 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.bodyMain {
+    background: #ccc;
+}
+
+.container {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+21,a80077+59,c146a1+65,cb60b3+81,db36a4+100 */
+    color: #cb60b3;
+    /* Old browsers */
+    color: -moz-linear-gradient(-45deg, #cb60b3 0%, #c146a1 21%, #a80077 59%, #c146a1 65%, #cb60b3 81%, #db36a4 100%);
+    /* FF3.6-15 */
+    color: -webkit-linear-gradient(-45deg, #cb60b3 0%, #c146a1 21%, #a80077 59%, #c146a1 65%, #cb60b3 81%, #db36a4 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    color: linear-gradient(135deg, #cb60b3 0%, #c146a1 21%, #a80077 59%, #c146a1 65%, #cb60b3 81%, #db36a4 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    padding: 250px 0;
+}
+
+.buttons {
+    z-index: 9999999;
+    padding: 0 20%;
+    margin-top: 50px;
+}
+
+.container .title {
+    padding: 0 20%;
+}
+
+.buttonClear {
+    width: 20%;
+    height: 45px;
+    float: left;
+}
+
+.button {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 7.5px 0;
+    width: 20%;
+    float: left;
+}
